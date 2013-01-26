@@ -1,16 +1,292 @@
-/* Global styles */
-h1 {
+/*
+    Name: Base Stylesheet
+    Description: Sitio oficial de Sociedad Uruguaya de Psicología del deporte (supde) Asociación Civil
+    Author: Ignacio Lopez Juani
+    Author URI: www.lopezjuani.com
+*/
 
+/* Imports */
+@import url("html5-reset.css");
+@import url(http://fonts.googleapis.com/css?family=Belgrano);
+
+/* Global ************************************************/
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5em;
+  background: transparent url(../images/background.jpg) center 140px no-repeat;
+}
+a {
+  text-decoration: none;
+}
+section {
+  clear: both;
+}
+
+footer{
+font-size: 10px;
+}
+
+.social_btn {
+  margin: 10px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  display: inline;
+}
+
+#affiliate {
+  height: 255px;
+  padding: 110px 612px 0 0;
+}
+#affiliate h1 {
+  font-size: 20px;
+}
+
+#conf_text {
+  margin-left: 500px;
+  line-height: 1.5em;
+}
+
+.main_title {
+  color: #006CC9;
+  margin-top: 75px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  text-shadow: 0px -1px 1px #E8F4FC;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+
+nav ul li a {
+  text-shadow: 1px 1px 1px #CACAD9;
+  color: #121212;
+  font: 1em "Helvetica, Arial" sans-serif;
+  padding-left: 38px;
+}
+nav ul.menu {
+  margin-top: 40px;
+}
+
+.main-header {
+  text-indent: -9999px;
+}
+.hidden {
+  text-indent: -9999px;
+}
+#conf_text {
+  margin-left: 500px;
+}
+.main-footer {
+  height: 100px;
+  background-color: #C0C9FF;
+  text-align: center;
+  margin-top: 75px;
+}
+#g {
+  float: left;
+  clear: both;
+}
+#g1 {
+  float: left;
+}
+#g2 {
+
+}
+#g3 {
+  float: right;
+}
+.primary-btn {
+  background-color: #008DF2;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border:1px solid #6CA6C1;
+  font-size: 20px;
+  color: #E8F4FC;
+  text-shadow: 0px -1px 1px #000;
+  padding: 3px;
+  /*-webkit-gradient(linear, 0% 0%, 0% 70%, from(#008DF2), to(#006CC9));
+  -moz-linear-gradient(0% 70% 0deg,#008DF2, #006CC9);*/
+}
+.secondary-btn {
+  background-color: #008DF2;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border:1px solid #6CA6C1;
+  font-size: 15px;
+  color: #E8F4FC;
+  text-shadow: 0px -1px 1px #000;
+  padding: 1px;
+}
+
+
+/*
+  LEVEL ONE
+*/
+ul.dropdown                         { position: relative; }
+ul.dropdown li                      { font-weight: bold; float: left; zoom: 1; background: #fff; }
+ul.dropdown a:hover               { color: #000; }
+ul.dropdown a:active                { color: #ffa500; }
+ul.dropdown li a                    { display: block; padding: 4px 8px; color: #222; }
+ul.dropdown li:last-child a         { border-right: none; } /* Doesn't work in IE */
+ul.dropdown li.hover,
+ul.dropdown li:hover                { background: #C0C9FF; color: black; position: relative; }
+ul.dropdown li.hover a              { color: black; }
+
+
+/*
+  LEVEL TWO
+  */
+  ul.dropdown ul            { width: 220px; visibility: hidden; position: absolute; top: 100%; left: 0; }
+  ul.dropdown ul li           { font-weight: normal; background: #fff; color: #000;
+    border-bottom: 1px solid #ccc; float: none; }
+
+    /* IE 6 & 7 Needs Inline Block */
+    ul.dropdown ul li a         { border-right: none; width: 100%; display: inline-block; }
+
+/*
+  LEVEL THREE
+  */
+  ul.dropdown ul ul           { left: 100%; top: 0; }
+  ul.dropdown li:hover > ul       { visibility: visible; }
+/* headings
+h1, h2, h3 {
+  margin-bottom: 24px;
+  font-weight: bold;
+  clear: both;
+  color: #FF3366;
+  font-family: 'Belgrano', serif;
+}
+h1 {
+  font-size: 1.5em;
+  line-height: 1em;
 }
 h2 {
-
+  font-size: 1.375em;
+  line-height: 1.0909em;
+}
+h3 {
+  font-size: 1.25em;
+  line-height: 1.2em;
 }
 
-/* Section specific styles */
+*/
+/* paragraphs
+p {
+  margin-bottom: 24px;
+}
+p+p {
+  text-indent: 1em;
+  margin-top: -24px;
+}
+body > p:first-of-type {
+  font-size: 1.125em;
+  line-height: 1.333em;
+}
+p strong {
+    color: #666;
+}
+* p:last-child {margin-bottom: 0;}
 
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
+::-moz-selection {background: #F6CF74; color: #fff;}
+::selection {background: #F6CF74; color: #fff;}
+*/
+
+/* lists
+ul, ol {
+  margin-bottom: 24px;
+}
+ul {
+  list-style: square outside;
+}
+ul ul,
+ol ol {
+  margin: 0 0 0 60px;
+}
+*/
+/* quotes
+blockquote {
+  margin: 0 60px 0 45px;
+  border-left: 5px solid #ccc;
+  padding-left: 10px;
+  text-indent: -0.4em;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {content: ''; content: none;}
+
+blockquote b {
+  display: block;
+  text-indent: 0;
+}
+cite {}
+q {}
+*/
+/* links
+a {
+  color: #09f;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #666666;
+}
+a:active,
+a:focus {
+  position: relative;
+  top: 1px;
+}
+*/
+/* tables
+table {border-collapse: collapse; border-spacing: 0;}
+th {font-weight: bold}
+td {font-weight: normal}
+*/
+
+/* Section Specific ************************************************/
+
+/* Home
 body.home {
-    background-color: red;
+
 }
+
+/* About*/
 body.about {
-    background-color: red;
+ background: none;
 }
+*/
+/* Contact
+body.contact {
+
+}
+
+
+/* ***********************************
+img:hover {
+   -webkit-box-shadow: 5px 5px 9px #ccc;
+  -moz-box-shadow: 5px 5px 9px #ccc;
+  box-shadow: 5px 5px 9px #ccc;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  transform: rotate(-5deg);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+}
+ */
