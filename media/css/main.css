@@ -1,0 +1,16 @@
+/* Global styles */
+h1 {
+
+}
+h2 {
+
+}
+
+/* Section specific styles */
+
+body.home {
+    background-color: red;
+}
+body.about {
+    background-color: red;
+}

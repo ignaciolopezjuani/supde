@@ -1,0 +1,7 @@
+markdown: maruku
+pygments: false
+permalink: /blog
+name: 'My site'
+production_url: 'mysite.com'
+google_analytics_id: 'xxxxxxxxxxx'
+auto: true
