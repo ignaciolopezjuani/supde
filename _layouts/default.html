@@ -1,78 +1,80 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]><html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{% if page.title %} {{ page.title }} | {% endif %} {{ site.name }}</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <link rel="stylesheet" href="/media/css/main.css">
-        <script src="/media/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body class="{{ page.body_class }}">
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
 
-        <div class="container">
-            <header>
-                <nav>
-                    <h1 class="main-header">Sociedad Uruguaya de Psicología del Deporte</h1>
-                    <a href="#"><img class="logo" alt="logo" src="media/images/logo2.jpg"></a>
-                    <ul class="dropdown menu">
-                        <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Institucional</a>
-                            <ul class="sub_menu">
-                                <li><a href="#">Misión</a></li>
-                                <li><a href="#">Historia</a></li>
-                                <li><a href="#">Estatutos</a></li>
-                                <li><a href="#">Comisión Directiva</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Actividades</a>
-                            <ul class="sub_menu">
-                                <li><a href="#">Congresos</a></li>
-                                <li><a href="#">Ateneos/Workshop</a></li>
-                                <li><a href="#">Cursos </a></li>
-                                <li><a href="#">Agenda Externa</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Galeria</a>
-                            <ul class="sub_menu">
-                                <li><a href="#">Congresos</a></li>
-                                <li><a href="#">Ateneos</a></li>
-                                <li><a href="#">Sociales</a></li>
-                                <li><a href="#">Cursos </a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Links</a></li>
-                        <li><a href="#">Contactos</a></li>
-                        <li><a href="#">Aula Virtual</a></li>
-                        <li><a href="#">Afiliate</a></li>
-                    </ul>
-                </nav>
-            </header>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><!-- Chrome Frame -->
+    <title>{{ page.title }} - Sociedad Uruguaya de Psicología del Deporte</title>
+    <meta name="application-name" content="Sociedad Uruguaya de Psicologia del deporte">
+    <meta name="description" content="Sitio oficial de Sociedad Uruguaya de Psicología del deporte (supde) Asociación Civil ">
+    <meta name="author" content="Ignacio Lopez Juani">
+    <link rel="shortcut icon" href="media/favicon.ico">
+    <link rel="stylesheet" href="media/css/jquery.thumbnailScroller.css" />
+    <link rel="stylesheet" href="media/css/base.css" />
+    <script src="media/js/jquery-1.3.1.min.js"></script>
+    <script src="media/js/jquery.dropdownPlain.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="media/js/jquery-ui-1.8.13.custom.min.js"></script>
+    <script src="media/js/functions.js"></script>
+    <script src="media/js/modernizr-1.7.min.js"></script>
+    <script src="media/js/jquery.thumbnailScroller.js"></script>
+</head>
 
+<body class="{{ page.body_class }}">
+    <div class="container">
+        <header>
+            <nav>
+                <h1 class="main-header">Sociedad Uruguaya de Psicología del Deporte</h1>
+                <a href="#"><img class="logo" alt="logo" src="media/images/logo2.jpg"></a>
+                <ul class="dropdown menu">
+            <li><a href="/">Inicio</a></li>
+            <li><a href="/about.html">Institucional</a>
+                <ul class="sub_menu">
+                    <li><a href="/about.html#mission">Misión</a></li>
+                    <li><a href="#">Historia</a></li>
+                    <li><a href="#">Estatutos</a></li>
+                    <li><a href="#">Comisión Directiva</a></li>
+                </ul>
+            </li>
+            <li><a href="/activities.html">Actividades</a>
+                <ul class="sub_menu">
+                     <li><a href="#">Congresos</a></li>
+                     <li><a href="#">Ateneos / Workshop</a></li>
+                     <li><a href="#">Cursos </a></li>
+                     <li><a href="#">Agenda Externa</a></li>
+                </ul>
+            </li>
+            <li><a href="/gallery.html">Galeria</a>
+                <ul class="sub_menu">
+                     <li><a href="#">Congresos</a></li>
+                     <li><a href="#">Ateneos</a></li>
+                     <li><a href="#">Sociales</a></li>
+                     <li><a href="#">Cursos </a></li>
+                </ul>
+            </li>
+            <li><a href="/links.html">Links</a></li>
+            <li><a href="/contact.html">Contactos</a></li>
+            <li><a href="/virtual class room.html">Aula Virtual</a></li>
+            <li><a href="/afiliate.html">Afiliate</a></li>
+        </ul>
+            </nav>
+        </header>
+
+        <div class="main-container">
             {{ content }}
-
         </div>
 
-        <footer class="main-footer">
-            <div class="container">
-                <a href="#"><img class="social_btn" src="media/images/fb_btn.png"></a>
-                <a href="#"><img class="social_btn" src="media/images/tw_btn.png"></a>
-                <p>Sociedad Uruguaya de Psicología del deporte (supde) - Asociación Civil San Salvador 2045 (esquina Pablo de María) C.P. 11600 Montevideo, Uruguay Teléfono: (+598 2) 410-0334</p>
-                <address class="vcard author">
-                    Sitio creado por: <a class="url fn" href="#">Ignacio López Juaní</a>
-                </address>
-            <div>
-        </footer>
+    </div>
+    <footer class="main-footer">
+        <div class="container">
+            <a href="#"><img class="social_btn" src="media/images/fb_btn.png"></a>
+            <a href="#"><img class="social_btn" src="media/images/tw_btn.png"></a>
+            <p class="info_foot">Sociedad Uruguaya de Psicología del deporte (supde) - Asociación Civil San Salvador 2045 (esquina Pablo de María) C.P. 11600 Montevideo, Uruguay Teléfono: (+598 2) 410-0334</p>
+            <address class="vcard author">
+                Sitio creado por: <a class="url fn" href="#">Ignacio López Juaní</a>
+            </address>
+        <div>
+    </footer>
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="media/js/vendor/jquery-1.8.3.min.js"><\/script>')</script>
-        <script src="/media/js/main.js"></script>
-    </body>
+</body>
 </html>
