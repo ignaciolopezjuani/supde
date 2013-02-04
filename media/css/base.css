@@ -171,6 +171,9 @@ ul.dropdown ul li a {
   background-color: #FFF;
   box-sizing: border-box;
 }
+ul.dropdown ul li a:hover {
+  background-color: #E9E9E9;
+}
 
 ul.dropdown ul {
   border: 1px solid rgba( 0, 0, 0, 0.3);
@@ -192,6 +195,31 @@ body.home .jThumbnailScroller .jTscrollerContainer {
 /* About */
 body.about {
 
+}
+
+body.about h3{
+  margin: 10px 0 10px 0;
+}
+
+body.about section {
+  margin: 50px;
+  }
+
+.about-title {
+  font-size: 20px;
+  color: #3CACFF;
+  margin-bottom: 25px;
+}
+
+#history ul {
+  margin: 15px 15px;
+}
+#history ul a {
+  color: black;
+}
+#history ul a:hover {
+  color: black;
+  background-color: #E9E9E9;
 }
 
 /* activities */
