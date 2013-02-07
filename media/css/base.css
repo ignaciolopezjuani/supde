@@ -321,7 +321,9 @@ body.links {
 body.virtual-class-room {
 
 }
-
+body.virtual-class-room #aulabtn {
+  margin: 50px 70px;
+}
 
 /* ***********************************
 
