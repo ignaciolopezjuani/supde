@@ -229,7 +229,7 @@ body.activities .actimgs {
   box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
   margin: 50px 20px;
 }
-body.activities .secondary-title {
+.secondary-title {
   font-size: 18px;
 padding: 20px;
 color: #006CC9;
@@ -243,6 +243,69 @@ body.afiliate {
 /* Contact */
 body.contact {
 
+}
+.contacto {
+  padding: 35px;
+
+}
+.contacto .titulo-pagina {
+  margin: 0 0 20px 0;
+}
+.contacto h2 {
+  margin-bottom: 20px;
+}
+.contacto p {
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.contacto form {
+  margin: 0 auto;
+  width: 260px;
+}
+.contacto label {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  display: block;
+  padding-bottom: 15px;
+}
+.contacto .campo {
+  width: 254px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: 1px Solid  #006CC9;
+  padding: 2px;
+  color: #000;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  overflow: auto;
+}
+.contacto .campomensaje {width: 254px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 1px Solid #006CC9;
+  padding: 2px;
+  color: #000;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  overflow: auto;
+}
+.contacto #comentario {
+  width: 254px;
+  height: 193px;
+}
+.contacto input#boton_enviar {
+  color: #006CC9;
+  padding: 10px;
+}
+
+#boton_enviar{ margin-left: 100px;
+
+}
+
+.center {
+  text-align: center;
+  line-height: 2em;
 }
 
 /* gallery */
