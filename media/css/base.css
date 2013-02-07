@@ -64,7 +64,7 @@ address a {
   width: 380px;
 }
 
-.main_title {
+.main-title {
   color: #006CC9;
   margin-top: 75px;
   margin-bottom: 50px;
@@ -193,8 +193,17 @@ body.home .jThumbnailScroller .jTscrollerContainer {
 }
 
 /* About */
-body.about {
+body.about .abouthistory-list {
+  margin: 25px 50px;
+}
 
+body.about .abouthistory-list a {
+  color: #006CC9;
+}
+
+body.about .abouthistory-list a:hover {
+  color: white;
+  background-color: #006CC9;
 }
 
 body.about h3{
@@ -211,16 +220,6 @@ body.about section {
   margin-bottom: 25px;
 }
 
-#history ul {
-  margin: 15px 15px;
-}
-#history ul a {
-  color: black;
-}
-#history ul a:hover {
-  color: black;
-  background-color: #E9E9E9;
-}
 
 /* activities */
 body.activities {
