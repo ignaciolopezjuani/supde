@@ -206,24 +206,33 @@ body.about .abouthistory-list a:hover {
   background-color: #006CC9;
 }
 
-body.about h3{
+body.about h3 {
   margin: 10px 0 10px 0;
 }
 
 body.about section {
-  margin: 50px;
+  margin: 60px;
   }
-
-.about-title {
-  font-size: 20px;
-  color: #006CC9;
-  margin-bottom: 25px;
-}
 
 
 /* activities */
-body.activities {
+body.activities section {
+ margin: 60px;
+}
+body.activities .ateneosimgul li {
+  display: inline;
+}
 
+body.activities .actimgs {
+  border: 1px solid rgba( 0, 0, 0, 0.3);
+  -webkit-box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
+  margin: 50px 20px;
+}
+body.activities .secondary-title {
+  font-size: 18px;
+padding: 20px;
+color: #006CC9;
 }
 
 /* afiliate */
