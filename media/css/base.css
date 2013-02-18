@@ -332,12 +332,12 @@ body.gallery a:visited {color:#000;}
 
 /* slides styling */
 
-body.gallery .photo {width:635px; text-align:left; position:relative; margin:0 auto;}
+body.gallery .photo {width:635px; text-align:left; position:relative; margin:0 auto; height: 600px;}
 
 body.gallery .photo ul.topic {padding:0; margin:0; list-style:none; width:635px; height:auto; position:relative; z-index:10;}
 
-body.gallery .photo ul.topic li {display:block; width:125px; height:31px; float:left;}
-body.gallery .photo ul.topic li a.set {display:block; font-size:11px; width:124px; height:30px; text-align:center; line-height:30px; color:#000; text-decoration:none; border:1px solid #fff; border-width:1px 1px 0 0; background:#ccc; font-family:verdana, arial, sans-serif;}
+body.gallery .photo ul.topic li {display:block; width:148px; height:31px; float:left;}
+body.gallery .photo ul.topic li a.set {display:block; font-size:11px; width:146px; height:30px; text-align:center; line-height:30px; color:#000; text-decoration:none; border:1px solid #fff; border-width:1px 1px 0 0; background:#ccc; font-family:verdana, arial, sans-serif;}
 
 body.gallery .photo ul.topic li a ul,
 body.gallery .photo ul.topic li ul {display:none;}
