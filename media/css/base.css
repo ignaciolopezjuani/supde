@@ -216,7 +216,11 @@ body.about h3 {
 body.about section {
   margin: 60px;
   }
+body.about .comisiondirectiva {
+  list-style-image: url('../images/bullet.jpg');
+  padding-left: 1em;
 
+}
 
 /* activities */
 
