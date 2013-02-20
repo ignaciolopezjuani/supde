@@ -227,10 +227,12 @@ body.activities section {
  margin: 60px;
 }
 
-body.activities .ateneosimgul li {
+body.activities .ateneosimgul {
   display: inline;
 }
-
+.ateneos-text {
+  width: 500px;
+}
 
 body.activities .actimgs {
   border: 1px solid rgba( 0, 0, 0, 0.3);
@@ -256,8 +258,8 @@ body.contact {
 }
 .contacto {
   padding: 35px;
-
 }
+
 .contacto .titulo-pagina {
   margin: 0 0 20px 0;
 }
