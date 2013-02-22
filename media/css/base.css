@@ -16,16 +16,18 @@ body {
   color: #333;
   line-height: 1.5em;
 }
+
 a {
   text-decoration: none;
   color: #006CC9;
 }
+
 section {
   clear: both;
 }
 
 address a {
-  color: #000;
+  color: white;
 }
 
 .social_btn {
@@ -109,12 +111,14 @@ nav ul.menu {
 
 .main-footer {
   height: 110px;
-  font-size: 10px;
-  color: #000;
-  background-color: #3CACFF;
+  font-size: 12px;
+  color: white;
+  background-color: #008DF2;
   text-align: center;
   margin-top: 75px;
 }
+
+
 #g {
   float: left;
   clear: both;
@@ -333,7 +337,11 @@ float: right;
 body.gallery {
 
 }
-#galleria{ width: 700px; height: 400px; background: #000 }
+#galleria{
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+  background: #000 }
 
 /* ================================================================
 This copyright notice must be untouched at all times.
