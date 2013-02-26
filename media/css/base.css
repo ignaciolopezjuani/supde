@@ -115,7 +115,7 @@ nav ul.menu {
   color: white;
   background-color: #008DF2;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 150px;
 }
 
 
@@ -152,6 +152,8 @@ box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
 }
 .up-btn {
   color: #008DF2;
+  float: right;
+  margin-bottom: 75px;
 }
 
 /*
