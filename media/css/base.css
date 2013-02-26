@@ -222,10 +222,14 @@ body.about .abouthistory-list a:hover {
 body.about section {
   margin: 60px;
   }
-body.about .comisiondirectiva {
+
+.list-bullets {
   list-style-image: url('../images/bullet.jpg');
   padding-left: 1em;
-
+}
+.list-bullets li {
+  width: 200px;
+  padding: 15px 30px;
 }
 
 /* activities */
