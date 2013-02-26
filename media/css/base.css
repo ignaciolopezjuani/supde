@@ -135,6 +135,15 @@ box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
   text-shadow: 0px -1px 1px #E8F4FC;
 }
 
+.sub-title h2 {
+    margin-bottom: 50px;
+  }
+
+  .history-title {
+  margin: 20px;
+}
+
+
 .primary-btn {
   background-color: #008DF2;
   -webkit-border-radius: 10px;
