@@ -433,8 +433,8 @@ body.links {
 
 }
 /* virtual-class-room */
-body.virtual-class-room {
-
+body.virtual-class-room #prof-list {
+  margin-bottom: 50px;
 }
 
 .center tr td span {font-family: Helvetica, Arial, sans-serif; monospace; font-size: 14px; margin-left: 300px;
