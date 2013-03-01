@@ -179,7 +179,6 @@ box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
   color: #E8F4FC;
   text-shadow: 0px -1px 1px #727E8A;
   padding: 3px 6px;
-  margin-left: 50px;
 }
 
 .btn:hover {
@@ -253,6 +252,11 @@ body.about .abouthistory-list {
 
 body.about .abouthistory-list a {
   color: #006CC9;
+}
+
+body.about .abouthistory-list a:hover {
+  background-color: #0081dd;
+  border-color: #005fa2;
 }
 
 body.about .abouthistory-list a:hover {
