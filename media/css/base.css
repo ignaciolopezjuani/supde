@@ -43,7 +43,7 @@ address a {
 }
 .main-container {
   clear: both;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .logo {
@@ -98,7 +98,9 @@ nav ul.menu {
   width: 300px;
   margin: 0 auto;
   text-align: center;
-
+}
+#membership_application h1 {
+  margin-bottom: 0;
 }
 
 .main-footer {
@@ -121,26 +123,37 @@ box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
 
 .main-title {
   color: #004788;
-  margin-top: 75px;
+  margin-top: 30px;
   margin-bottom: 50px;
   font-size: 25px;
   text-shadow: 0px -1px 1px #E8F4FC;
+  border-bottom: 1px solid #cecece;
+  padding-bottom: 10px;
 }
 
 .sub-title {
   color: #006CC9;
   margin-top: 75px;
-  margin-bottom: 50px;
-  font-size: 25px;
-  text-shadow: 0px -1px 1px #E8F4FC;
+  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .sub-title h2 {
-    margin-bottom: 50px;
-  }
+  margin-bottom: 44px;
+}
 
-  .history-title {
-  margin: 20px;
+.main-container h1,
+.main-container h2,
+.main-container h3,
+.main-container h4,
+.main-container ul,
+.main-container p {
+  margin-bottom: 1em;
+}
+
+
+.history-title {
+  margin: 20px 0;
 }
 
 
@@ -152,10 +165,11 @@ box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
   font-size: 20px;
   color: #E8F4FC;
   text-shadow: 0px -1px 1px #727E8A;
-  padding: 3px;
+  padding: 6px 12px;
   /*-webkit-gradient(linear, 0% 0%, 0% 70%, from(#008DF2), to(#006CC9));
   -moz-linear-gradient(0% 70% 0deg,#008DF2, #006CC9);*/
 }
+
 .secondary-btn {
   background-color: #008DF2;
   -webkit-border-radius: 5px;
@@ -164,8 +178,13 @@ box-shadow: 1px 5px 30px 5px rgba(0, 0, 0, 0.2);
   font-size: 15px;
   color: #E8F4FC;
   text-shadow: 0px -1px 1px #727E8A;
-  padding: 1px;
+  padding: 3px 6px;
   margin-left: 50px;
+}
+
+.btn:hover {
+  background-color: #0081dd;
+  border-color: #005fa2;
 }
 
 .up-btn {
@@ -223,6 +242,10 @@ body.home .jThumbnailScroller .jTscrollerContainer {
   line-height: 0;
 }
 
+body.home .sub-title {
+  text-align: center;
+}
+
 /* About */
 body.about .abouthistory-list {
   margin: 25px 50px;
@@ -236,10 +259,17 @@ body.about .abouthistory-list a:hover {
   color: white;
   background-color: #006CC9;
 }
+body.about .list-bullets {
+  margin-bottom: 1em;
+  margin-left: 1em;
+}
+body.about .list-bullets li {
+  padding: 0;
+}
+body.about .list-bullets li p {
+  margin: 0;
+}
 
-body.about section {
-  margin: 60px;
-  }
 
 .list-bullets {
   list-style-image: url('../images/bullet.jpg');
@@ -252,10 +282,6 @@ body.about section {
 
 /* activities */
 
-body.activities section {
- margin: 60px;
-}
-
 body.activities .ateneosimgul {
   display: inline;
 }
@@ -267,13 +293,15 @@ body.activities .actimgs {
   border: 1px solid rgba( 0, 0, 0, 0.3);
   -webkit-box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
   box-shadow:  1px 5px 30px 5px rgba(0, 0, 0, 0.2);
-  margin: 50px 20px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2em;
 }
 
 .secondary-title {
   font-size: 18px;
-padding: 20px;
-color: #006CC9;
+  padding: 20px 0;
+  color: #006CC9;
 }
 
 /* afiliate */
